@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+}
+.botao {
+    width: 150px;
+    height: 40px;
+    background-color: #0A99FE ;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+
+}
+.botao:hover{
+    background-color: rgb(10, 153, 254, 0.1);
+    color:#0A99FE;
+}
+.botao1 {
+    width: 150px;
+    height: 40px;
+    background-color: #0A99FE ;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.botao1:hover{
+    background-color: rgb(10, 153, 254, 0.1);
+    color:#0A99FE;
+}
+    
+.body{
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    background-color: #fff;
+    
+}
+.titulo{
+    color:#1B1B1B
+    
+    
+}
+.card{
+    width: 207px;
+    height: 275px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    background-color: rgb(134, 131, 131, 0.3);
+    border-radius: 20px;
+}
+.produtosPaintings{
+    overflow-x: auto;
+    display: flex;
+    align-items: flex-start;
+}
+.produtosActions{
+    overflow-x: auto;
+    display: flex;
+}
+    
+
+.containerImg{
+    width: 100%;
+    height: 80%;
+    
+}
+.imagem{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.h2title{
+    color: #1B1B1B;
+    font-size: 20px;
+    text-align: center;
+    
+    
+   
+
+}
+.h3valor{
+    color: #868383;
+    font-size: 16px;
+    margin-top: -10px;
+    
+
+}
+
+
+
+
+
